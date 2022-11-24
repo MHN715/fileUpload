@@ -1,0 +1,21 @@
+.progress-bar-wrapper{
+    /* background: rgb(0, 47, 255); */
+    border: 1px solid grey;
+    grid-area: 18/2/19/20;
+    display: grid;
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+}
+.progress-bar{
+  background: #bbd800;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  /* margin-left: 1rem; */
+}
+
+.percentage-number{
+  margin-left: .8rem;
+}
